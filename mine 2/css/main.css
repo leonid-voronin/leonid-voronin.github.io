@@ -1,0 +1,382 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+
+section {
+    width: 100%;
+}
+div {
+    box-sizing: border-box;
+}
+.logo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 14%;
+
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    
+    /* border: 1px solid lightblue; */
+    /* background-color: #c4c5c0; */
+}
+.container a {
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: #222;
+}
+.vhod {
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 20px; */
+    margin-right: 15px;
+    color: lightgrey;
+    
+    
+}
+.vhod a {
+    color: #222;
+    text-decoration: none; 
+     /* font-weight: bold;   */
+    /* text-transform: lowercase;  */
+    padding: 20px;
+    
+
+    
+}
+/* .clearfix:after {
+        content: '';
+        display: table;
+        width: 100%;
+        clear: both;
+}  */
+ nav {
+     /* float: left; */
+     margin-top: 50px;
+    margin-left: 35px;
+}
+ .menu {
+    padding: 0;
+    margin: 0;
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+    
+}
+#menu-toggle {
+    display: none;
+}
+.menu.active {
+    /* background: #fff; */
+    width: 180px;
+}  
+.menu.active li {
+    padding: 10px 0;
+}
+.menu li {
+    /* float: left; */
+    margin-right: 15px;
+    display: block;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all .2s ease-in-out;
+    /* border: 1px  black;
+    border-radius: 14px; */
+    padding: 8px;
+    
+    /* background: #fed136; */
+ }  
+ .menu a:hover {
+     background: white;
+     /* font-size: 25px; */
+     padding: 15px;
+     border-top-right-radius: 14px;
+     border-top-left-radius: 14px;
+     border-bottom: 2px solid #f7f7f7;
+    
+ }
+ .origin_publisher {
+     margin-top: 0;
+ }
+.publisher {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    
+    
+}
+.publisher img {
+    height: 65px;
+    transition: all .3s ease-in-out;
+    /* border: 3px solid #f7f7f7;
+    border-radius: 20px; */
+    
+}
+.publisher img:hover {
+    border: 2px solid #f7f7f7;
+    border-radius: 20px;
+    transform: scale(1.3);
+}
+ h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.series_header {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 65px;
+    margin-top: 50px;
+}
+.series {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+  
+}
+.series a {
+    transition: all .3s ease-in-out;
+    /* margin-bottom: 50px; */
+    padding: 20px;
+    text-align: center;
+    
+}
+.series a:hover {
+    border: 2px solid #f7f7f7;
+    border-radius: 20px;
+    transform: scale(1.4);
+    padding: 0;
+    margin: 0;
+    
+}
+.series a:hover p {
+    display: block;
+}
+.series img {
+    display: block;
+    margin: 0 auto;
+   
+    width: 100px;
+    border-radius: 7px;
+}
+.series p {
+    font-size: 13px;
+    text-align: center;
+    display: none;
+}
+.book_author {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: flex-start;
+}
+.book_author table {
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+.book_author td {
+    margin-top: 20px;
+}
+.book_page img {
+    height: 400px;
+}
+ .line {
+    background: #f7f7f7;
+}
+.linerate {
+    padding-top: 15px;
+}
+.title a {
+    text-decoration: none;
+    color: black;
+} 
+ /* .flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 34px;
+    margin-top: 28px;
+    justify-content: space-between;
+}  */
+ 
+.rating-carousel {
+    width:  auto; 
+     
+     text-align: justify;           
+     margin-top: 25px;
+     margin-left: 65px;
+}
+.rating img {
+    height: 205px;
+    border-radius: 7px;
+    /* transition: all .3s ease-in-out; */
+    padding-bottom:  15px;
+    text-align: center;
+    
+}
+/* .rating img:hover {
+    transform: scale(1.5);    
+} */
+h6 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #222;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.news img {
+    padding: 0;
+    margin: 0;
+    /* float: left; */
+    width: 190px;
+    border-radius: 7px;
+    margin-top: 20px;
+    
+}
+.news p{
+    margin-top: 70px;
+    text-align: center;
+    border: 2px ;
+    margin-left: 20px;
+    border-radius: 15px;
+    font-style: italic;
+    margin-bottom: 40px;
+    white-space: pre-wrap;
+} 
+.new_books {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.new_books a {
+    padding: 20px;
+}
+.new_books img {
+    height: 300px;
+    border-radius: 7px;
+    
+}
+.new_books p {
+    display: none;
+}
+.links a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #222;
+}
+.link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #222;
+}
+h3 {
+    text-align: center;
+    margin-top: 33px;
+}
+h5 {
+    text-align: center;
+    color: gray;
+}
+h4 {
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#window {
+    display: none;
+} 
+/* .login {
+    border: 2px solid lightgray;
+    float: right;
+    display: flex;
+    
+}
+.check {
+    float: right;
+    margin-right: 100px;
+    margin-top: 7px;
+}
+.logpass {
+    width: 130px;
+    border-radius: 5px;
+    height: 23px;
+}
+.button {
+    display: block;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.forget {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #222;
+} */
+
+@media (max-width: 570px) {
+    .menu {
+        display: none;
+    }
+    #menu-toggle {
+        display: block;
+    }
+    .menu.active {
+        display: block;
+    }
+}
